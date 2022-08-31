@@ -3,11 +3,19 @@
 </p>
 
 -------
-Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Invertido é incerto, repleto de obstáculos e perigos. Porém, a recompensa é grande: salvar Hawkings e o mundo todo das garras de Vecna. Você está preparado(a)? 
 
-## ▶️ Semana Front-end
-- [Live Dia 01](https://www.youtube.com/watch?v=FZgIQUDn8zo)
-- [Live Dia 02](https://www.youtube.com/watch?v=WHbhgxJLbN4)
+
+
+## Light-theme
+<p align="center">
+    <img src="./assets/images/readme/light-theme.png">
+</p>
+
+## Dark-theme
+<p align="center">
+    <img src="./assets/images/readme/dark-theme.png">
+</p>
+
 ## 💻 Tecnologias
 - HTML
 - CSS
@@ -85,7 +93,7 @@ Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Inve
 - [WCAG 2](https://www.w3.org/WAI/WCAG21/quickref/) 
 - [Figma](https://www.figma.com/file/I3Q42CcVUziRN3iMfTrbfb/Stranger-Things?node-id=0%3A1) 
 - [Demo](https://micheleambrosio.github.io/semana-frontend-mundo-invertido/) 
-## 🌎 Nossas redes sociais
+## 🌎 Redes sociais dos professores
 <p>
     <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/16018277?v=4"/>
     <p>&nbsp&nbsp&nbspDiogo Medeiros Mainardes<br>

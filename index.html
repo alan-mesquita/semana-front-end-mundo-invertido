@@ -45,7 +45,7 @@
           <iframe
             width="460"
             height="215"
-            src="https://www.youtube.com/embed/SJ9EFhQ3ANQ?controls=0"
+            src="https://www.youtube.com/embed/yTX0HxTq9wo"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -91,7 +91,7 @@
             e tenha experiências de <span>outro mundo</span></h3>
 
           <div class="form-container">
-            <form action="">
+            <form>
               <label for="txtName">Nome Completo</label>
               <input type="text" name="name" id="txtName">
     
@@ -99,7 +99,7 @@
               <input type="email" name="email" id="txtEmail">
     
               <label for="txtLevel">Level</label>
-              <input type="text" name="level" id="txtLevel">
+              <input type="number" name="level" id="txtLevel">
     
               <label for="txtCharacter">Personagem</label>
               <textarea name="character" id="txtCharacter" cols="30" rows="10"></textarea>
@@ -123,7 +123,7 @@
       window.addEventListener('click', function() {
         const audio = document.getElementById('music');
         audio.play();
-        audio.volume = 0.4;
+        audio.volume = 0.2;
       })
 
       function switchTheme() {
@@ -136,8 +136,10 @@
         const audio = document.getElementById('music');
         audio.src = `assets/musics/${music}`;
         audio.play();
-        audio.volume = 0.4;
+        audio.volume = 0.2;
       }
     </script>
+
+    <script type="module" src="assets/js/main.js"></script>
   </body>
 </html>
