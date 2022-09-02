@@ -1,0 +1,106 @@
+@media screen and (min-width: 320px) and (max-width:500px) {
+
+    /*** Generic Styles ***/
+
+    h1,
+    h2,
+    h3 {
+        font-size: 2rem;
+        padding: 0 20px;
+    }
+
+    p {
+        padding: 0 20px;
+    }
+    
+    #section-inverted-world .section-texts,
+    #section-stranger-things-trailer .section-texts {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* *** SECTION B2 INVERTED WORLD *** */
+
+    #section-inverted-world {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #section-inverted-world .section-texts h2 {
+        max-width: 100%;
+    }
+
+    #section-inverted-world img.invert-element {
+        width: 80%;
+    }
+
+    /* *** SECTION B2 STRANGER THINGS TRAILER *** */
+
+    #section-stranger-things-trailer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    #section-stranger-things-trailer .video-frame iframe {
+        width: auto;
+        height: auto;
+    }
+
+    /* *** SECTION B2 STRANGER THINGS GALLERY *** */
+
+    #section-stranger-things-gallery .container h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #section-stranger-things-gallery {
+        background: none;
+    }
+
+    #section-stranger-things-gallery .gallery-container {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    /* *** SECTION DUNGEONS & DRAGONS FORM *** */
+
+    #section-form h2 {
+        width: fit-content;
+    }
+
+    #section-form .form-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #section-form .form-content h3 {
+        text-align: center;
+    }
+
+    #section-form .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-form .form-container form, 
+    #section-form .form-container::after{
+        width: 90%;
+    }
+
+    /* *** FOOTER STYLES *** */
+
+    footer::before, footer::after {
+        content: '';
+        width: 130px;
+        height: 160px;
+        background: url(../images/footer/tape.svg) no-repeat;
+        background-size: contain;
+        position: absolute;
+        bottom: -70px;
+    }
+}
